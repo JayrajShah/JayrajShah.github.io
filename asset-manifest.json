@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/JayrajShah/JayrajShah.github.io/static/css/main.9d57234a.chunk.css",
+    "main.js": "/JayrajShah/JayrajShah.github.io/static/js/main.8e8c59a9.chunk.js",
+    "main.js.map": "/JayrajShah/JayrajShah.github.io/static/js/main.8e8c59a9.chunk.js.map",
+    "runtime-main.js": "/JayrajShah/JayrajShah.github.io/static/js/runtime-main.2cd372e0.js",
+    "runtime-main.js.map": "/JayrajShah/JayrajShah.github.io/static/js/runtime-main.2cd372e0.js.map",
+    "static/js/2.df9d5c0b.chunk.js": "/JayrajShah/JayrajShah.github.io/static/js/2.df9d5c0b.chunk.js",
+    "static/js/2.df9d5c0b.chunk.js.map": "/JayrajShah/JayrajShah.github.io/static/js/2.df9d5c0b.chunk.js.map",
+    "index.html": "/JayrajShah/JayrajShah.github.io/index.html",
+    "precache-manifest.3589744200347f25b485418d1a63cc97.js": "/JayrajShah/JayrajShah.github.io/precache-manifest.3589744200347f25b485418d1a63cc97.js",
+    "service-worker.js": "/JayrajShah/JayrajShah.github.io/service-worker.js",
+    "static/css/main.9d57234a.chunk.css.map": "/JayrajShah/JayrajShah.github.io/static/css/main.9d57234a.chunk.css.map",
+    "static/js/2.df9d5c0b.chunk.js.LICENSE.txt": "/JayrajShah/JayrajShah.github.io/static/js/2.df9d5c0b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/JayrajShah/JayrajShah.github.io/static/media/Raleway-VariableFont_wght.3b5635ac.ttf",
+    "static/media/logo.svg": "/JayrajShah/JayrajShah.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2cd372e0.js",
+    "static/js/2.df9d5c0b.chunk.js",
+    "static/css/main.9d57234a.chunk.css",
+    "static/js/main.8e8c59a9.chunk.js"
+  ]
+}
