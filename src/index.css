@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+    url(./fonts/Raleway-VariableFont_wght.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
