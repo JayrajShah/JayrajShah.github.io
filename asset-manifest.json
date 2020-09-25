@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdac009b.chunk.css",
+    "main.css": "/static/css/main.124a77a3.chunk.css",
     "main.js": "/static/js/main.d25004d5.chunk.js",
     "main.js.map": "/static/js/main.d25004d5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eb17b5df.js",
@@ -8,9 +8,9 @@
     "static/js/2.635c5811.chunk.js": "/static/js/2.635c5811.chunk.js",
     "static/js/2.635c5811.chunk.js.map": "/static/js/2.635c5811.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.84cab5d4ac0fa252ef145eed650e8dcb.js": "/precache-manifest.84cab5d4ac0fa252ef145eed650e8dcb.js",
+    "precache-manifest.fe4587078a2d3c678ca9a03438f2ce58.js": "/precache-manifest.fe4587078a2d3c678ca9a03438f2ce58.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fdac009b.chunk.css.map": "/static/css/main.fdac009b.chunk.css.map",
+    "static/css/main.124a77a3.chunk.css.map": "/static/css/main.124a77a3.chunk.css.map",
     "static/js/2.635c5811.chunk.js.LICENSE.txt": "/static/js/2.635c5811.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Raleway-VariableFont_wght.3b5635ac.ttf",
     "static/media/pic.png": "/static/media/pic.19481eba.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.eb17b5df.js",
     "static/js/2.635c5811.chunk.js",
-    "static/css/main.fdac009b.chunk.css",
+    "static/css/main.124a77a3.chunk.css",
     "static/js/main.d25004d5.chunk.js"
   ]
 }
