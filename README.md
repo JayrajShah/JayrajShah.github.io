@@ -7,18 +7,24 @@
 	<img src="https://img.shields.io/badge/Languages-HTML,_CSS,_JS-red.svg" alt="Language-HTML,_CSS,_JS"/>
 	<img src="https://img.shields.io/badge/Framework-React-563d7c.svg" alt="Library-React"/>
 	<h2 align="center">Preview</h2>
-	<p align="center"><img src="" alt="Preview"/></p>
+	<p align="center"><img src="https://github.com/VishakAmin/JayrajShah.github.io/blob/slave/Preview.gif" alt="Preview"/></p>
 
 </p>
+
 # Built using:
 
 ---
 
-[React](https://reactjs.org/)  
+[React](https://reactjs.org/)
+
 [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+
 [Material-UI](http://material-ui.com/)
-[JavaScript](https://www.javascript.com/)  
-[GitHub Pages](https://pages.github.com/) For Hosting  
+
+[JavaScript](https://www.javascript.com/)
+
+[GitHub Pages](https://pages.github.com/) For Hosting
+
 [Git](https://git-scm.com/) for source control
 
 To view the live demo, [click here](https://JayrajShah.github.io/)
