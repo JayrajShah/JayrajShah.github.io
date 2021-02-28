@@ -3,10 +3,33 @@
   src: local("Raleway"),
     url(./fonts/Raleway-VariableFont_wght.ttf) format("truetype");
 }
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 
+html {
+  /* font-size: calc(1em+1vh); */
+
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Raleway";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: overlay;
+}
+body::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(61, 50, 28, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(150, 150, 150, 0.3);
+  border-radius: 20px;
+  padding: 0.1;
 }
