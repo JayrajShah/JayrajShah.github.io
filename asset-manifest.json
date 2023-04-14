@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.388d7dc2.chunk.css",
-    "main.js": "/static/js/main.bf9a2e01.chunk.js",
-    "main.js.map": "/static/js/main.bf9a2e01.chunk.js.map",
+    "main.css": "/static/css/main.c5b0a8dc.chunk.css",
+    "main.js": "/static/js/main.73804972.chunk.js",
+    "main.js.map": "/static/js/main.73804972.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eb17b5df.js",
     "runtime-main.js.map": "/static/js/runtime-main.eb17b5df.js.map",
     "static/js/2.1ed1c0d2.chunk.js": "/static/js/2.1ed1c0d2.chunk.js",
     "static/js/2.1ed1c0d2.chunk.js.map": "/static/js/2.1ed1c0d2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.96cc88141a846cebd78f121426c2923b.js": "/precache-manifest.96cc88141a846cebd78f121426c2923b.js",
+    "precache-manifest.e7156c5d74c07014b6b68b236f29e3ea.js": "/precache-manifest.e7156c5d74c07014b6b68b236f29e3ea.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.388d7dc2.chunk.css.map": "/static/css/main.388d7dc2.chunk.css.map",
+    "static/css/main.c5b0a8dc.chunk.css.map": "/static/css/main.c5b0a8dc.chunk.css.map",
     "static/js/2.1ed1c0d2.chunk.js.LICENSE.txt": "/static/js/2.1ed1c0d2.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Raleway-VariableFont_wght.3b5635ac.ttf",
     "static/media/algorithm.jpg": "/static/media/algorithm.9b363859.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.eb17b5df.js",
     "static/js/2.1ed1c0d2.chunk.js",
-    "static/css/main.388d7dc2.chunk.css",
-    "static/js/main.bf9a2e01.chunk.js"
+    "static/css/main.c5b0a8dc.chunk.css",
+    "static/js/main.73804972.chunk.js"
   ]
 }
