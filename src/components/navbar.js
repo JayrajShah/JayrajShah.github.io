@@ -11,6 +11,7 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles((theme) => ({
   backdrop: {
@@ -79,19 +80,6 @@ const Navbar = () => {
   }, []);
   //Handlers
   const handleClick = (event, item) => {
-    let pageHeight;
-    switch (item) {
-      case "about":
-        pageHeight = window.innerHeight;
-        window.scrollTo(0, pageHeight);
-        break;
-      case "contact":
-        pageHeight = window.innerHeight;
-        window.scrollTo(0, pageHeight + pageHeight);
-        break;
-      default:
-        break;
-    }
     if (item === "resume") {
       window.open("/resume.pdf", "_blank");
     }
@@ -118,18 +106,20 @@ const Navbar = () => {
       >
         {navList.map((item, index) => (
           <Grid item container justify="center" key={item + `${index}`}>
-            <ButtonBase
-              centerRipple={false}
-              disableRipple={true}
-              className={classes.navListMenuItem}
-              onClick={(event) => {
-                handleClick(event, item);
-                setMenuOpen(false);
-                setBackdropOpen(false);
-              }}
-            >
-              {item.toUpperCase()}
-            </ButtonBase>
+            <Link to={item} spy={true} smooth={true} delay={0} isDynamic={true}>
+              <ButtonBase
+                centerRipple={false}
+                disableRipple={true}
+                className={classes.navListMenuItem}
+                onClick={(event) => {
+                  handleClick(event, item);
+                  setMenuOpen(false);
+                  setBackdropOpen(false);
+                }}
+              >
+                {item.toUpperCase()}
+              </ButtonBase>
+            </Link>
           </Grid>
         ))}
       </Grid>
@@ -141,21 +131,23 @@ const Navbar = () => {
       <Fade in={window.pageYOffset < 100}>
         <Container
           className={classes.navContainer}
-          style={{
-            //display: window.pageYOffset < 100 ? "" : "none",
-            transition: "all 5s ",
-          }}
+          // style={{
+          //   //display: window.pageYOffset < 100 ? "" : "none",
+          //   transition: "all 5s ",
+          // }}
         >
           {navList.map((item) => (
-            <ButtonBase
-              key={item}
-              centerRipple={false}
-              disableRipple={true}
-              className={classes.navListItem}
-              onClick={(event) => handleClick(event, item)}
-            >
-              {item.toUpperCase()}
-            </ButtonBase>
+            <Link to={item} spy={true} smooth={true}>
+              <ButtonBase
+                key={item}
+                centerRipple={false}
+                disableRipple={true}
+                className={classes.navListItem}
+                onClick={(event) => handleClick(event, item)}
+              >
+                {item.toUpperCase()}
+              </ButtonBase>
+            </Link>
           ))}
         </Container>
       </Fade>

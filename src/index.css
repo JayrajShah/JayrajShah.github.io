@@ -9,7 +9,10 @@
 html {
   /* font-size: calc(1em+1vh); */
 
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 body {
   margin: 0;
@@ -19,6 +22,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: overlay;
+  width: 100%;
 }
 body::-webkit-scrollbar {
   width: 0.3em;

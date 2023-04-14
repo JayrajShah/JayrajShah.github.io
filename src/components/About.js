@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 const About = () => {
   const classes = useStyles();
   return (
-    <Grid style={{ height: "100vh", backgroundColor: "#242424" }}>
+    <Grid style={{ height: "100vh", backgroundColor: "#242424" }} id="about">
       <Grid className={classes.about}>
         <Grid container direction="column">
           <Grid container justify="center" style={{ width: "100%" }}>
@@ -40,25 +40,28 @@ const About = () => {
             </Typography>
           </Grid>
           <Grid className="about__aboutMe">
-            <Grid>
-              <img
-                src={profilePic}
-                alt="Profile"
-                className="about__profilePic"
-              />
-            </Grid>
-            <Grid item>
-              <Typography>
-                I'm a FullStack developer with vast array of knowledge in
-                different FrontEnd and BackEnd technologies. My objective is to
-                be the best in what I do and help others in growing and
-                expanding their presence on the online platform.
-              </Typography>
+            <img src={profilePic} alt="Profile" className="about__profilePic" />
+            <Grid className="about__desc">
+              I'm a{" "}
+              <span
+                className="about__descKeyword"
+                style={{
+                  fontWeight: "bold",
+                  letterSpacing: 2,
+                  color: "#FBD630",
+                }}
+              >
+                FullStack{" "}
+              </span>
+              developer with vast array of knowledge in different FrontEnd and
+              BackEnd technologies. My objective is to be the best in what I do
+              and help others in growing and expanding their presence on the
+              online platform.
             </Grid>
           </Grid>
         </Grid>
       </Grid>
-      <Grid className={classes.about}>
+      <Grid className={classes.about} style={{ height: "50%" }}>
         <Grid container direction="column">
           <Grid container justify="center" style={{ width: "100%" }}>
             <Typography
@@ -68,6 +71,7 @@ const About = () => {
                 color: "#FBD630",
                 letterSpacing: "0.1em",
                 marginBottom: "1em",
+                marginTop: ".5em",
               }}
             >
               MY SKILLS
@@ -76,12 +80,12 @@ const About = () => {
           <Grid className="about__skillContainer">
             {iconList.map((icon) => (
               <Grid key={icon.name} className="about__iconContainer">
-                <Grid item className={classes.iconStyle}>
+                <Grid item>
                   <icon.component />
                 </Grid>
                 <Grid item>
                   <Typography
-                    variant="body1"
+                    variant="body2"
                     style={{
                       color: "#efefef",
                     }}

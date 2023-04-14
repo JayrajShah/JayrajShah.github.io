@@ -2,8 +2,11 @@ import React, { useEffect } from "react";
 import "./App.css";
 import pic from "./assets/pic.png";
 import Navbar from "./components/navbar";
+import Work from "./components/Work";
+import Contact from "./components/Contact";
 import About from "./components/About";
 import ScrollReveal from "./components/ScrollReveal";
+import { Link } from "react-scroll";
 
 import {
   Typography,
@@ -13,8 +16,15 @@ import {
   makeStyles,
   Button,
 } from "@material-ui/core";
+import Footer from "./components/Footer";
 
 const themex = createMuiTheme({
+  palette: {
+    type: "dark",
+    primary: {
+      main: "#FBD630",
+    },
+  },
   typography: {
     fontFamily: [
       "Raleway",
@@ -74,7 +84,14 @@ function App() {
     );
   }, []);
 
-  console.log("Inner Width: ", window.innerWidth);
+  const handleClick = (event) => {
+    let pageHeight;
+
+    pageHeight = window.innerHeight;
+    window.scrollTo(0, pageHeight + pageHeight);
+  };
+
+  // console.log("Inner Width: ", window.innerWidth);
 
   return (
     <MuiThemeProvider theme={themex}>
@@ -98,23 +115,28 @@ function App() {
           alignItems="center"
           className="scroll-btn"
         >
-          <Button
-            variant="outlined"
-            size="large"
-            style={{
-              fontFamily: "Anton",
-              letterSpacing: "1px",
-              color: "#242424",
-              borderColor: "#FBD630",
-              borderRadius: "50px",
-              backgroundColor: "#FBD630",
-            }}
-          >
-            MORE
-          </Button>
+          <Link to="work" spy={true} smooth={true}>
+            <Button
+              variant="outlined"
+              size="large"
+              style={{
+                fontFamily: "Anton",
+                letterSpacing: "1px",
+                color: "#242424",
+                borderColor: "#FBD630",
+                borderRadius: "50px",
+                backgroundColor: "#FBD630",
+              }}
+            >
+              My Work
+            </Button>
+          </Link>
         </Grid>
       </Grid>
       <About />
+      <Work />
+      <Contact />
+      <Footer />
     </MuiThemeProvider>
   );
 }

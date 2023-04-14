@@ -13,6 +13,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "react-scroll": "^1.8.2",
     "scrollreveal": "^4.0.7"
   },
   "scripts": {
